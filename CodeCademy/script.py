@@ -1,5 +1,6 @@
 print("Hello "+ "Kyubum!")
 
+# python3 출력
 my_name = "Kyubum"
 print("Hello and welcome " + my_name + "!")
 
