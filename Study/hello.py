@@ -1,20 +1,12 @@
-print('Hello, World')
+a = 'Hello, World'
+b = "'python' is good"
+c = 'python\'s name'
+d = """Life is too
+short
+"""
+e = "Life is too short \n you need python"
 
-a = 100
-b = 1.24
-
-print(type(a))
-print(type(b))
-
+print (type(a))
 print(a+b)
-print(a*b)
-
-print(1/b)
-
-# 몫만 출력하는 것
-print(1//b)
-
-print(a**b)
-
-# 나머지
-print(a%b)
+print(a*100)
+print(e)
