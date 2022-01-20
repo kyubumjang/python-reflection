@@ -1,12 +1,13 @@
-# 인덱싱
-a = 'Life is too short, you need python'
-print(a[0])
+number = 100
+day= 'three'
+# %s = string %c 문자 1개 %d integer %f float %o 8진수 %x 16진수 %% Literal%(문자 %)
+a = 'I ate %d apples, so I was sick for %s days.' %(number, day)
+b = '1ddafsasd  {} dasfajlkdjfal'.format("{}사이에 문자열이 들어가나?")
+c = 'hello {name} {age}'.format(name='kyubum', age=26)
+name = 'kyubum'
+d = f"나의 이름은 {name} 입니다."
 
-# 슬라이싱
-# a[이상:미만:간격]
-print(a[0:4])
-
-b = '20010331Rainy'
-print(b[:8])
-print(b[8:])
-print(b[::2])
+print(a)
+print(b)
+print(c)
+print(d)
