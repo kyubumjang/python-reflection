@@ -1,12 +1,12 @@
-a = 'Hello, World'
-b = "'python' is good"
-c = 'python\'s name'
-d = """Life is too
-short
-"""
-e = "Life is too short \n you need python"
+# 인덱싱
+a = 'Life is too short, you need python'
+print(a[0])
 
-print (type(a))
-print(a+b)
-print(a*100)
-print(e)
+# 슬라이싱
+# a[이상:미만:간격]
+print(a[0:4])
+
+b = '20010331Rainy'
+print(b[:8])
+print(b[8:])
+print(b[::2])
